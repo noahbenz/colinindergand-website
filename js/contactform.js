@@ -3,6 +3,7 @@ const form = document.querySelector("form[name='contact-form']");
 const alertElement = document.querySelector("#alertContainer");
 const success_message = document.getElementById("alertMessage");
 
+
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // prevent form submission
   fetch(event.target.action, {
