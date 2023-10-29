@@ -749,6 +749,12 @@ strong {
 .copyright-text {
   font-size: var(--menu-font-size);
 }
+@media screen and (max-width: 768px) {
+  .footer-space{
+  margin-bottom: 25px;
+  }
+}
+
 
 /*---------------------------------------
   SOCIAL ICON               
@@ -757,7 +763,11 @@ strong {
   margin: 0;
   padding: 0;
 }
-
+@media screen and (max-width: 768px) {
+  .social-icon {
+    margin-top: -15px;
+  }
+}
 .social-icon li {
   list-style: none;
   display: inline-block;
